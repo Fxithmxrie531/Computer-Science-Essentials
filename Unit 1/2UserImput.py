@@ -1,3 +1,3 @@
 print("Hello!")
-
-print("Enter was pressed!")
+x=input("Type message and press enter")
+print(x)
