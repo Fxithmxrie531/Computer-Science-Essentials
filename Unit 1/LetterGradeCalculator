@@ -1,0 +1,19 @@
+print("Welcome to to the Did I fail Calculator")
+print("This app calculates your grade, and tells you if yor're failing or passing")
+print("How many points was your grade out of?")
+total_pts_available=int(input("enter total points available"))
+pts_earned=int(input("enter your score"))
+output=(pts_earned) / (total_pts_available) * (100)
+print("your score is",output,"%")
+if output >= 90:
+    print("You have an A, you're passing")
+elif output >= 80:
+    print("You have a B, you're passing")
+elif output >= 70:
+    print("You have a C, you're passing")
+elif output >= 60:
+    print("You have a D, you're passing")
+elif output <= 50:
+    print("You have an F, you're failing ")
+else:
+    print("An error has occured")
