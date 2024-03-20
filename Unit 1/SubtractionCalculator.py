@@ -1,0 +1,6 @@
+print("welcome to the simple subtraction calculator")
+print("this calculator subtracts two numbers provided by the user")
+first_num=int(input("Enter first number"))
+second_num=int(input("Enter second number"))
+output=(first_num-second_num)
+print(output)
